@@ -1,0 +1,37 @@
+.gameChoices {
+  display: grid;
+  gap: 10px;
+  overflow: hidden;
+  overflow-x: scroll;
+  margin-top: 30px;
+}
+
+.gameChoice {
+  display: flex;
+  background-color: #4158D0;
+  border: 1px solid gray;
+  border-radius: 10%;
+  height: 120px;
+  width: 135px;
+  grid-row: 1;
+}
+
+.gameChoiceInfo {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gameChoiceImg {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.gameChoiceName {
+  margin: 0;
+  color: white;
+  font-size: 15px;
+  font-family: 'Andalus';
+  font-weight: 700;
+}
