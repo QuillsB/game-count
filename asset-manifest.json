@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.87ee9542.css",
-    "main.js": "/static/js/main.d696d9f0.js",
-    "static/js/787.1feb6290.chunk.js": "/static/js/787.1feb6290.chunk.js",
-    "static/media/logo5000.png": "/static/media/logo5000.fea6057d1a7af133276b.png",
-    "static/media/logoPapayoo.png": "/static/media/logoPapayoo.1db2e0932ba68e76f4b7.png",
-    "index.html": "/index.html",
-    "main.87ee9542.css.map": "/static/css/main.87ee9542.css.map",
-    "main.d696d9f0.js.map": "/static/js/main.d696d9f0.js.map",
-    "787.1feb6290.chunk.js.map": "/static/js/787.1feb6290.chunk.js.map"
+    "main.css": "/choices/static/css/main.87ee9542.css",
+    "main.js": "/choices/static/js/main.f94288d5.js",
+    "static/js/787.1feb6290.chunk.js": "/choices/static/js/787.1feb6290.chunk.js",
+    "static/media/logo5000.png": "/choices/static/media/logo5000.fea6057d1a7af133276b.png",
+    "static/media/logoPapayoo.png": "/choices/static/media/logoPapayoo.1db2e0932ba68e76f4b7.png",
+    "index.html": "/choices/index.html",
+    "main.87ee9542.css.map": "/choices/static/css/main.87ee9542.css.map",
+    "main.f94288d5.js.map": "/choices/static/js/main.f94288d5.js.map",
+    "787.1feb6290.chunk.js.map": "/choices/static/js/787.1feb6290.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87ee9542.css",
-    "static/js/main.d696d9f0.js"
+    "static/js/main.f94288d5.js"
   ]
 }
