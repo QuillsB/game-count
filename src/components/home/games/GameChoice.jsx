@@ -1,18 +1,21 @@
 import React from 'react';
+import Logo from '../../logo/Logo';
 
 export default function GameChoice(props) {
-  const { gameChoice } = props;
+  const { gameChoice: { name } } = props;
 
   return (
-    <div className="gameChoice">
+    <div
+      className="gameChoice"
+    >
       <div className="gameChoiceInfo">
         <img
-          src="https://www.regledujeu.fr/wp-content/uploads/6qui-prend.png"
-          alt="oui"
+          src={Logo(name)}
+          alt={name}
           className="gameChoiceImg"
         />
         <p className="gameChoiceName">
-          {gameChoice.name}
+          {name}
         </p>
       </div>
     </div>
