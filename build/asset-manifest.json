@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/game-count/static/css/main.073c9b0a.css",
-    "main.js": "/game-count/static/js/main.d8f7b5e7.js",
+    "main.css": "/game-count/static/css/main.87ee9542.css",
+    "main.js": "/game-count/static/js/main.35b40c4a.js",
     "static/js/787.1feb6290.chunk.js": "/game-count/static/js/787.1feb6290.chunk.js",
-    "static/media/logo.svg": "/game-count/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo5000.png": "/game-count/static/media/logo5000.fea6057d1a7af133276b.png",
+    "static/media/logoPapayoo.png": "/game-count/static/media/logoPapayoo.1db2e0932ba68e76f4b7.png",
     "index.html": "/game-count/index.html",
-    "main.073c9b0a.css.map": "/game-count/static/css/main.073c9b0a.css.map",
-    "main.d8f7b5e7.js.map": "/game-count/static/js/main.d8f7b5e7.js.map",
+    "main.87ee9542.css.map": "/game-count/static/css/main.87ee9542.css.map",
+    "main.35b40c4a.js.map": "/game-count/static/js/main.35b40c4a.js.map",
     "787.1feb6290.chunk.js.map": "/game-count/static/js/787.1feb6290.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d8f7b5e7.js"
+    "static/css/main.87ee9542.css",
+    "static/js/main.35b40c4a.js"
   ]
 }
