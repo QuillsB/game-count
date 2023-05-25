@@ -5,12 +5,12 @@ import PlayersEntry from './PlayersEntry';
 import './styles.css';
 
 export default function PlayersSelection(props) {
-  const { players, addPlayer } = props;
+  const { players, addPlayer, removePlayer } = props;
 
   return (
     <div className="playersSelection">
       <p className="playersSelectionTitle">Joueurs</p>
-      <PlayersEntry players={players} addPlayer={addPlayer} />
+      <PlayersEntry players={players} addPlayer={addPlayer} removePlayer={removePlayer} />
     </div>
   )
 }

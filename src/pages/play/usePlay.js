@@ -10,8 +10,15 @@ export default function usePlay() {
     setPlayers(newPlayerList);
   };
 
+  const removePlayer = (playerToRemove) => {
+    const playersToKeep = players.filter((player) => (player.name !== playerToRemove.name || player.icon !== playerToRemove.icon));
+
+    setPlayers(playersToKeep);
+  }
+
   return {
     addPlayer,
     players,
+    removePlayer,
   };
 }

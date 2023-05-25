@@ -9,12 +9,12 @@ export default function Play() {
   const queryParameters = new URLSearchParams(window.location.search)
   const game = queryParameters.get("game")
 
-  const { players, addPlayer } = usePlay();
+  const { players, addPlayer, removePlayer } = usePlay();
 
   return (
     <div className="play">
       <p className="playTitle">{game}</p>
-      <PlayersSelection players={players} addPlayer={addPlayer} />
+      <PlayersSelection players={players} addPlayer={addPlayer} removePlayer={removePlayer} />
     </div>
   );
 }

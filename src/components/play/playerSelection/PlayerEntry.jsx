@@ -4,7 +4,7 @@ import lessIcon from '../../../assets/less.png';
 import getIcon from '../../logo/Icon';
 
 export default function PlayerEntry(props) {
-  const { player } = props;
+  const { player, removePlayer } = props;
 
   return (
     <div>
@@ -12,7 +12,11 @@ export default function PlayerEntry(props) {
         <div className="playerToken">
           <img src={getIcon(player.icon)} alt="add-player" className="playerTokenImage" />
         </div>
-        <div className="playerTokenDelete">
+        <div
+          className="playerTokenDelete"
+          onClick={() => removePlayer(player)}
+          aria-hidden
+        >
           <img src={lessIcon} alt="less-icon" className="playerTokenDeleteIcon" />
         </div>
       </div>
