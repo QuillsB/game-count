@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/game-count/static/css/main.8b45475d.css",
-    "main.js": "/game-count/static/js/main.3343c1f5.js",
+    "main.css": "/game-count/static/css/main.0ea720db.css",
+    "main.js": "/game-count/static/js/main.11b59fa7.js",
     "static/js/787.1feb6290.chunk.js": "/game-count/static/js/787.1feb6290.chunk.js",
     "static/media/dog-icon.png": "/game-count/static/media/dog-icon.269505708db4c5eb98ce.png",
     "static/media/link-icon.png": "/game-count/static/media/link-icon.e319feb37f4f6ea470ef.png",
@@ -13,12 +13,12 @@
     "static/media/logoPapayoo.png": "/game-count/static/media/logoPapayoo.1db2e0932ba68e76f4b7.png",
     "static/media/predator-icon.png": "/game-count/static/media/predator-icon.fa2d8b070b1310291d0e.png",
     "index.html": "/game-count/index.html",
-    "main.8b45475d.css.map": "/game-count/static/css/main.8b45475d.css.map",
-    "main.3343c1f5.js.map": "/game-count/static/js/main.3343c1f5.js.map",
+    "main.0ea720db.css.map": "/game-count/static/css/main.0ea720db.css.map",
+    "main.11b59fa7.js.map": "/game-count/static/js/main.11b59fa7.js.map",
     "787.1feb6290.chunk.js.map": "/game-count/static/js/787.1feb6290.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b45475d.css",
-    "static/js/main.3343c1f5.js"
+    "static/css/main.0ea720db.css",
+    "static/js/main.11b59fa7.js"
   ]
 }
