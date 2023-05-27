@@ -14,10 +14,21 @@ export default function usePlay() {
     const playersToKeep = players.filter((player) => (player.name !== playerToRemove.name || player.icon !== playerToRemove.icon));
 
     setPlayers(playersToKeep);
-  }
+  };
+
+  const modifyPlayerScore = (updatedPlayer, newScore) => {
+    const playerToUpdateIndex = players.findIndex((player) => player.name === updatedPlayer.name);
+
+    const playersCopy = JSON.parse(JSON.stringify(players));;
+
+    playersCopy[playerToUpdateIndex].score = newScore;
+
+    setPlayers(playersCopy);
+  };
 
   return {
     addPlayer,
+    modifyPlayerScore,
     players,
     removePlayer,
   };
